@@ -1,0 +1,30 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "baseUrl": "./",
+      "outDir": "./dist/out-tsc",
+      "sourceMap": true,
+      "declaration": false,
+      "downlevelIteration": true,
+      "experimentalDecorators": true,
+      "module": "es2020",
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "importHelpers": true,
+      "esModuleInterop": true,
+      "target": "es2015",
+      "lib": ["es2018", "dom"],
+      "types": ["jest", "cypress", "node"],
+      "typeRoots": ["node_modules/@types"]
+    },
+    "angularCompilerOptions": {
+      "fullTemplateTypeCheck": true,
+      "strictInjectionParameters": true
+    },
+    "exclude": [
+      "**/validation/custom-validators.ts",
+      "**/src/setup-jest.ts",
+      "**/cypress/**"
+    ],
+  "include": ["**/*.ts"]
+  }

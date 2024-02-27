@@ -1,0 +1,232 @@
+{
+    "package": {
+        "content": {
+            "application": {
+                "loans": [
+                    {
+                        "loanPurpose": "Purchase / Buy Real Estate",
+                        "term": {
+                            "repaymentType": "P&I",
+                            "loanTerm": "480",
+                            "interestOnlyTerm": "12",
+                            "interestRateType": "Floating",
+                            "repaymentFrequency": "Monthly"
+                        },
+                        "initialInterestRate": "12.99",
+                        "loanAmount": "10000",
+                        "loanType": "Term Loan",
+                        "applicationNumber": "APPLICATIONNUMBERUNIQUE",
+                        "loanNumber": "LOANNUMBERUNIQUE",
+                        "existingLoanAccount": "",
+                        "existingLoanAmountUnderSecurity": "0.00",
+                        "loanDrawDownDate": "16/05/2023",
+                        "securities": [
+                            {
+                                "crossReference": "SEC-001"
+                            }
+                        ]
+                    }
+                ],
+                "policy": {
+                    "applicationDate": "10/05/2023",
+                    "decisionDate": "10/05/2022",
+                    "coverageEffectiveDate": "16/05/2023",
+                    "expiryDate": "16/05/2053",
+                    "applicationNumber": "APPLICATIONNUMBERUNIQUE",
+                    "existingPolicyNumber": "111111",
+                    "productType": "Standard",
+                    "capitalisedPremiumIndicator": "Yes",
+                    "paymentPlan": "Single",
+                    "billingTenure": "10",
+                    "salesChannel": {
+                        "brokerName": "ARCH",
+                        "brokerNo": "909939",
+                        "introducer": "ARCH INTRO",
+                        "campaignCode": "CAMP001",
+                        "partyName": "PARTY_NAME",
+                        "partyAddress": {
+                            "unitOrLotNumber": "0",
+                            "streetNumber": "12",
+                            "streetName": "Clarence",
+                            "streetType": "Street",
+                            "city": "Sydney",
+                            "state": "NSW",
+                            "postCode": "2000",
+                            "country": "AUS"
+                        }
+                    }
+                },
+                "borrowers": [
+                    {
+                        "borrowerType": "Company",
+                        "applicantType": "Guarantor",
+                        "firstHomeBuyerIndicator": "No",
+                        "personName": {
+                            "title": "Mrs",
+                            "surname": "Daniel",
+                            "middleNameOrInitial": "M",
+                            "givenName": "Robert"
+                        },
+                        "dateOfBirth": "14/02/1985",
+                        "fullResidentialAddress": {
+                            "unitOrLotNumber": "0",
+                            "streetNumber": "10",
+                            "streetName": "Main",
+                            "streetType": "Street",
+                            "city": "Blacktown",
+                            "state": "NSW",
+                            "postCode": "2148",
+                            "country": "AUS",
+                            "timeAtAddress": "60"
+                        },
+                        "contactDetails": {
+                            "contactNumber": "0421900800",
+                            "emailAddress": "name@example.com"
+                        },
+                        "previousResidentialAddresses": [
+                            {
+                                "unitOrLotNumber": "0",
+                                "streetNumber": "90",
+                                "streetName": "Smith",
+                                "streetType": "Street",
+                                "city": "Sydney",
+                                "state": "NSW",
+                                "postCode": "2000",
+                                "country": "AUS",
+                                "timeAtAddress": "77"
+                            }
+                        ],
+                        "overseasResidentialAddress": {
+                            "addressLine1": "addr1",
+                            "addressLine2": "overseasaddr2",
+                            "city": "Sydney",
+                            "state": "NSW",
+                            "country": "Sydney",
+                            "zipCode": "8888"
+                        },
+                        "proofOfIdentity": {
+                            "documentType": "International Passport",
+                            "documentNumber": "Doc1X"
+                        },
+                        "residencyStatus": "Australian Citizen",
+                        "maritalStatus": "Single",
+                        "currentHousingStatus": "Boarding",
+                        "dependents": [
+                            {
+                                "ageOfDependent": "12"
+                            }
+                        ],
+                        "company": {
+                            "companyName": "Company",
+                            "companyType": "Trust",
+                            "companyId": "55555",
+                            "companyRegisteredAddress": "Compaddr1",
+                            "abnRegistrationDate": "14/12/2023",
+                            "gstRegistrationDate": "14/12/2023",
+                            "contactType": "Shareholder",
+                            "contactName": "jai",
+                            "contactNumber": "421900800"
+                        },
+                        "currentEmployment": {
+                            "occupation": "Manager",
+                            "nameOfEmployer": "Facebook",
+                            "employerAddress": "empAddr1",
+                            "employerContactNumber": "283003000",
+                            "timeInEmployment": "48",
+                            "grossAnnualIncome": "120000",
+                            "employmentType": "Full Time"
+                        },
+                        "dti": "DTI",
+                        "creditScore": "10988",
+                        "ndi": "99",
+                        "visaType": "VSA",
+                        "gender": "Male",
+                        "abnRegistrationNumber": "123",
+                        "financial": {
+                            "assets": [
+                                {
+                                    "assetType": "Bank Account",
+                                    "assetValue": "100000"
+                                }
+                            ],
+                            "liabilities": [
+                                {
+                                    "liabilityType": "Tax Debt",
+                                    "liabilityLimit": "1000.00",
+                                    "liabilityCurrentDebt": "1000.00"
+                                }
+                            ],
+                            "incomes": [
+                                {
+                                    "incomeType": "Bonus Income",
+                                    "baseSalaryGrossPerMonth": "1000.00"
+                                }
+                            ],
+                            "expense": {
+                                "expenseType": "Loan repayments for existing personal loan",
+                                "totalCreditCommitmentsAmount": "2000",
+                                "declaredLivingExpenseTotal": "5000",
+                                "hemLivingExpense": "1000.00",
+                                "otherCommitments": "Rent",
+                                "totalNetMonthlyExpenditure": "1000.00",
+                                "monthlySurplus": "500.50"
+                            },
+                            "deposits": [
+                                {
+                                    "depositSource": "Gift",
+                                    "depositType": "Genuine Savings",
+                                    "amount": "0.00"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "securities": [
+                    {
+                        "securityLookup": {
+                            "crossReference": "SEC-001"
+                        },
+                        "purchasePriceOrSecurityValue": "1300000.00",
+                        "securityType": "New",
+                        "securityPropertyAddress": {
+                            "unitOrLotNumber": "80",
+                            "streetNumber": "78",
+                            "streetName": "STREETUNIQUE",
+                            "streetType": null,
+                            "city": "Bowenfels",
+                            "state": "NSW",
+                            "postCode": "2790",
+                            "country": "AUS"
+                        },
+                        "improvements": "House",
+                        "zoning": "Residential",
+                        "principalPlaceOfResidence": "Yes",
+                        "titleType": "Other",
+                        "titleDetail": "Lot",
+                        "occupancyType": "Owner",
+                        "valuationDetail": {
+                            "valuationType": "AVM",
+                            "valuerName": "Smith Jason",
+                            "valuerRegistrationNumber": "6666667",
+                            "valuerCompanyName": "MVV Builders",
+                            "inspectionDate": "14/02/2023",
+                            "valuationAmount": "1300000.00",
+                            "currentUse": "commercial",
+                            "riskRating": "99",
+                            "numberOfBeds": "11",
+                            "numberOfDwellings": "23",
+                            "carAccommodation": "120",
+                            "landOrSiteArea": "1800"
+                        },
+                        "constructionPrice": "1300000.00",
+                        "builderName": "ACME Builders",
+                        "buildingProjectCost": "1300000.00"
+                    }
+                ]
+            }
+        },
+        "instructions": {
+            "submitType": ""
+        }
+    }
+}

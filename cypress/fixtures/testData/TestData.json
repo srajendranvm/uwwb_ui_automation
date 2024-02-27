@@ -1,0 +1,13 @@
+{
+  "loginEmptyCredentialErrorMsg": "Missing e-mail address",
+  "loginOnlyWithUsernameErrorMsg": "Missing Credentials",
+  "loginOnlyWithPasswordErrorMsg": "Missing e-mail address",
+  "LoginWithInvalidCredentialErrorMsg": "Invalid Credentials",
+  "LoginForgetPassword" : "Forgot password",
+
+  "loginEmptyCredentialErrorMsgPW": "The following fields are required: Username, Password",
+  "loginOnlyWithUsernameErrorMsgPW": "The following fields are required: Password",
+  "loginOnlyWithPasswordErrorMsgPW": "The following fields are required: Username",
+  "LoginWithInvalidCredentialErrorMsgPW": "There was an error retrieving Authorization to Arch for the specified user. Please try again, if the problem persists please contact your system support.",
+  "LoginSaveUserNamePW" : "Save Username?"
+}

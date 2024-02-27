@@ -1,0 +1,23 @@
+{
+    "video": false,
+    "defaultCommandTimeout": 3000,
+    "ignoreTestFiles": "examples/*.spec.js",
+	"watchForFileChanges":false,
+    "chromeWebSecurity": false,
+    "numTestsKeptInMemory": 0,
+    "pluginsFile": "cypress/plugins/index.js",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "reporterEnabled": "mochawesome",
+      "mochawesomeReporterOptions": {
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      }
+    },
+    "compilerOptions": {
+      "types": ["cypress"]
+   }
+  }
